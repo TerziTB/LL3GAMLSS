@@ -1,0 +1,2 @@
+"started","finished","wall_clock_seconds","workers","logical_cpus","processor","available_memory_bytes","operating_system","R_version","cache_policy","cell_scale_tasks"
+"2026-09-11 14:40:39 +03","2026-09-11 16:08:13 +03",5253.30836105347,10,16,"AMD64 Family 23 Model 104 Stepping 1, AuthenticAMD",14870372352,"Windows; 10 x64; build 19045; x86-64","R version 4.4.1 (2024-06-14 ucrt)","fresh fits",1096

@@ -1,0 +1,10 @@
+strong_station_scale_cases=17
+bootstrap_representative_cases=4
+bootstrap_replicates=499
+excluded_stations=17934
+exclusion_reason=Pozanti long deterministic climatological infill identified by the station QC workflow
+representative_case_rule=largest delta AICc within each accumulation scale
+representative_month_rule=largest absolute fitted sigma slope within the selected case
+block_length=max(2,ceiling(n^(1/3)))
+interval=percentile 95 percent moving-block residual bootstrap
+iid Wald uncertainty is not interpreted as dependence-robust

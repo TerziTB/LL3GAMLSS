@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use LL3GAMLSS in research, please cite the software using this metadata."
+type: software
+title: "LL3GAMLSS: Three-Parameter Log-Logistic Distributional Regression"
+version: 0.1.1
+authors:
+  - family-names: "Terzi"
+    given-names: "Tolga Barış"
+    email: "tolgabaristerzi@ktu.edu.tr"
+license: GPL-3.0-only
+abstract: >-
+  An R package providing a support-safe shifted three-parameter log-logistic
+  family for classic GAMLSS, with stationary and validated scale- and
+  shape-covariate models and an operational calendar-month LL3-SPEI workflow.
+keywords:
+  - GAMLSS
+  - log-logistic distribution
+  - non-stationarity
+  - SPEI
+  - drought index

@@ -1,0 +1,15 @@
+"file","structure_equal","numeric_missingness_equal","nonnumeric_equal","maximum_absolute_numeric_difference","reproduced"
+"area_weighted_model_fractions.csv",TRUE,TRUE,TRUE,0,TRUE
+"basin_candidate_metrics.csv",TRUE,TRUE,TRUE,0,TRUE
+"basin_model_selection.csv",TRUE,TRUE,TRUE,0,TRUE
+"basin_nspei_calibration.csv",TRUE,TRUE,TRUE,0,TRUE
+"basin_nspei.csv",TRUE,TRUE,TRUE,0,TRUE
+"cell_candidate_metrics.csv",TRUE,TRUE,TRUE,0,TRUE
+"cell_model_selection.csv",TRUE,TRUE,TRUE,0,TRUE
+"cell_nspei_calibration.csv",TRUE,TRUE,TRUE,0,TRUE
+"fit_audit.csv",TRUE,TRUE,TRUE,0,TRUE
+"selected_slope_summary.csv",TRUE,TRUE,TRUE,0,TRUE
+"selection_status_counts.csv",TRUE,TRUE,TRUE,0,TRUE
+"soil_moisture_nspei_best_lag.csv",TRUE,TRUE,TRUE,0,TRUE
+"soil_moisture_nspei_dry_event_consistency.csv",TRUE,TRUE,TRUE,0,TRUE
+"soil_moisture_nspei_lag_correlations.csv",TRUE,TRUE,TRUE,0,TRUE

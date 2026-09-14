@@ -1,0 +1,12 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+distribution: ..........
+family-and-fit: ...........
+spei: ............
+
+== DONE ========================================================================
+Warning message:
+package 'testthat' was built under R version 4.4.3 

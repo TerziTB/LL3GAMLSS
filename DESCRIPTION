@@ -1,0 +1,34 @@
+Package: LL3GAMLSS
+Type: Package
+Title: Three-Parameter Log-Logistic Distributional Regression
+Version: 0.1.1
+Authors@R: person(
+    given = "Tolga Barış",
+    family = "Terzi",
+    email = "tolgabaristerzi@ktu.edu.tr",
+    role = c("aut", "cre")
+  )
+Author: Tolga Barış Terzi [aut, cre]
+Maintainer: Tolga Barış Terzi <tolgabaristerzi@ktu.edu.tr>
+Description: Implements a support-safe three-parameter shifted log-logistic
+    family for classic Generalized Additive Models for Location, Scale and
+    Shape ('GAMLSS'). The validated nonstationary formulation estimates a
+    constant threshold while allowing scale and shape to depend on covariates.
+    It includes distribution functions, fitting and diagnostic helpers,
+    independent numerical likelihood comparison, uncertainty procedures, and
+    a calendar-month workflow for standardized precipitation-evapotranspiration
+    indices.
+License: GPL-3
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports:
+    gamlss,
+    gamlss.dist,
+    graphics,
+    stats
+Suggests:
+    FAdist,
+    numDeriv,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+NeedsCompilation: no

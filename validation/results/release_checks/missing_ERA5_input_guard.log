@@ -1,0 +1,7 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+Error: ERA5-Land NetCDF input is not included in the repository. Supply the main monthly-means file as the first command-line argument; optionally supply the 2022-2024 hourly-monthly precipitation correction as the second argument.
+Execution halted

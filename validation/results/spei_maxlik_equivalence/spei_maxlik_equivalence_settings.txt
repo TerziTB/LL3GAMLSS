@@ -1,0 +1,7 @@
+SPEI generalized-logistic to LL3 mapping:
+nu=-1/kappa; sigma=-alpha/kappa; mu=xi+alpha/kappa, requiring kappa<0.
+Installed SPEI 1.8.1 direct fit=max-lik calls returned NA coefficients because the fitting-method initialization switch omitted max-lik. The benchmark therefore called SPEI's own parglo.maxlik engine using its unbiased-PWM generalized-logistic start and cdfglo standardization.
+A second SPEI-engine run started at the parameter-equivalent GAMLSS solution to distinguish objective/parameterization equivalence from the default SPEI optimizer's initialization and local convergence.
+The SPEI generalized-logistic optimizer does not constrain kappa below zero. Rows with kappa>=0 have an upper rather than lower finite support endpoint and are flagged as not parameter-equivalent to the lower-threshold LL3 family.
+The benchmark compares fitted probabilities and standardized values. M0 remains the stationary comparator in model selection; this script is implementation validation only.
+Three representative empirical station-scale-month series were included.

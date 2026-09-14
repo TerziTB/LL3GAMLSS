@@ -1,0 +1,8 @@
+"check","passed","maximum_absolute_difference","detail"
+"cdf_quantile_inversion",TRUE,4.44089209850063e-16,"pLL3(qLL3(p)) on p=0.001,...,0.999"
+"density_formula",TRUE,1.21430643318376e-17,"Implemented density versus manuscript expression"
+"support_safe_mu_inverse",TRUE,8.43396463778845e-11,"mu=L-exp(eta) remains below L"
+"support_lower_below_data",TRUE,NA,"lower=-36.0142432914; min(y)=-36.0141578175"
+"seasonal_parameter_counts",TRUE,NA,"Expected K: M0=36, Msigma=48, Mnu=48, Msigma+nu=60"
+"station_AICc_recalculation",TRUE,6.00266503170133e-11,"model_comparison.csv"
+"ERA5_AICc_recalculation",TRUE,9.82254277914762e-11,"cell_candidate_metrics.csv"

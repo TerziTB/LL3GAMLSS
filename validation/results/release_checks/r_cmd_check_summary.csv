@@ -1,0 +1,2 @@
+mode,errors,warnings,notes,status,log
+no-manual,0,0,0,OK,validation/results/release_checks/R_CMD_check_no_manual.log

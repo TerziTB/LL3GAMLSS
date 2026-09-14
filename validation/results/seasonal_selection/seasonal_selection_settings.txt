@@ -1,0 +1,17 @@
+replicates_per_truth_dependence=30
+years=66
+monthly_observations=792
+calendar_month_observations=66
+scales=1,3,6,12
+sigma_slope_truth_at_scale1=0.250
+ar1_phi=0.4
+AICc aggregation=sum monthly deviance and df across 12 independent calendar-month fits
+selection=M0 unless best non-stationary model improves AICc by the stated threshold
+fit_completion_rate=all four candidates complete and inference-ready for all 12 months
+selection_completion_rate=M0 and at least one non-stationary candidate permit a finite selection
+slope bias and RMSE are reported only at scale 1 because sums of LL3 variables are not generally LL3
+control=n.cyc 2000; c.crit 0.001; autostep TRUE; gd.tol Inf; steps 0.03
+workers=4
+started=2026-09-11 14:22:09 +03
+finished=2026-09-11 15:00:59 +03
+wall_clock_seconds=2330.082

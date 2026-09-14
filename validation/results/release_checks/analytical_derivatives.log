@@ -1,0 +1,10 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+  case maximum_gradient_error maximum_hessian_error
+1    1           2.595618e-11          6.727063e-12
+2    2           3.120504e-12          1.011080e-12
+3    3           1.148814e-11          3.088169e-12
+Derivative validation passed.

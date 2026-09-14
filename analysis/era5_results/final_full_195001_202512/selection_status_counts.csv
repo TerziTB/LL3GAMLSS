@@ -1,0 +1,17 @@
+"scale_months","selection_status","cell_count"
+"1","moderate_nonstationarity",18
+"3","moderate_nonstationarity",44
+"6","moderate_nonstationarity",43
+"12","moderate_nonstationarity",25
+"1","stationary_selected",219
+"3","stationary_selected",179
+"6","stationary_selected",122
+"12","stationary_selected",72
+"1","strong_nonstationarity",7
+"3","strong_nonstationarity",31
+"6","strong_nonstationarity",93
+"12","strong_nonstationarity",171
+"1","weak_nonstationarity",30
+"3","weak_nonstationarity",20
+"6","weak_nonstationarity",16
+"12","weak_nonstationarity",6

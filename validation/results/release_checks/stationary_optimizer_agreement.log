@@ -1,0 +1,64 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+
+Stationary LL3 parameter comparison
+ parameter truth            GAMLSS        direct_MLE        FAdist_MLE
+        mu -50.0 -50.5476726491271 -50.5476914440951 -50.5476910743065
+     sigma  70.0  67.9620607690748  67.9620837814599  67.9620843571113
+        nu   1.8   1.7990572407299   1.7990576685323   1.7990580125121
+ GAMLSS_direct_difference GAMLSS_FAdist_difference direct_FAdist_difference
+      1.8794967949987e-05      1.8425179412418e-05      3.6978853756864e-07
+      2.3012385071297e-05      2.3588036526689e-05      5.7565145539229e-07
+      4.2780235687268e-07      7.7178217927631e-07      3.4397982240364e-07
+  scale_reference GAMLSS_direct_scaled_difference
+ 90.8901304410263             2.0678777617314e-07
+ 67.9620837814599             3.3860623145835e-07
+  1.7990576685323             2.3779246455267e-07
+ GAMLSS_FAdist_scaled_difference direct_FAdist_scaled_difference
+             2.0271925370789e-07             4.0685224652480e-09
+             3.4707641694065e-07             8.4701854822958e-09
+             4.2899246242948e-07             1.9119999787681e-07
+
+Stationary LL3 likelihood comparison
+                       method             logLik
+               Classic GAMLSS -5625.286795953692
+        Direct dLL3 optimizer -5625.286795953321
+ Independent FAdist optimizer -5625.286795953295
+
+Absolute log-likelihood differences
+     GAMLSS_vs_direct      GAMLSS_vs_FAdist      direct_vs_FAdist 
+3.719833330251276e-10 3.974491846747696e-10 2.546585164964199e-11 
+
+GAMLSS link-scale score check
+ parameter     total_link_score      mean_link_score
+    eta_mu  4.4315842380389e-05  4.4315842380389e-08
+ eta_sigma -2.2437574875616e-05 -2.2437574875616e-08
+    eta_nu -1.2790939447256e-05 -1.2790939447256e-08
+
+GAMLSS validity checks
+                    converged             finite_parameters 
+                         TRUE                          TRUE 
+                   support_ok                sigma_positive 
+                         TRUE                          TRUE 
+                  nu_positive              lower_below_data 
+                         TRUE                          TRUE 
+               mu_below_lower          mu_below_lower_exact 
+                         TRUE                          TRUE 
+mu_not_materially_above_lower           mu_boundary_contact 
+                         TRUE                         FALSE 
+  material_boundary_violation 
+                        FALSE 
+
+Support boundary diagnostics
+ minimum_y_minus_mu minimum_lower_minus_mu minimum_y_minus_lower
+    1.2285205361245        1.2284296459904   9.0890130444166e-05
+  boundary_tolerance exact_boundary_contact material_boundary_violation
+ 5.6240943180075e-11                  FALSE                       FALSE
+ inference_ready
+            TRUE
+                                                  recommendation
+ Interior solution: ordinary likelihood diagnostics may be used.
+Stationary MLE validation passed.

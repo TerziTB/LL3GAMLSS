@@ -1,0 +1,7 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+Error: The access-controlled station input is not included in the public repository. Create artifact_work/inspection/workbook_values.json from the provider workbook using the documented Date, Precipitation, Average_Temp, Min_Temp, and Max_Temp columns.
+Execution halted

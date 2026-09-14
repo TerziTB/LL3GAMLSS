@@ -1,0 +1,5 @@
+LL3GAMLSS 0.1.1 source archive build: PASS
+Installation into an empty temporary library: PASS
+Load from the clean temporary library: PASS
+Installed package version check: PASS
+Installed inst/CITATION evaluation: PASS

@@ -1,0 +1,9 @@
+citHeader("To cite LL3GAMLSS in publications, use:")
+
+bibentry(
+  bibtype = "Manual",
+  title = "LL3GAMLSS: Three-Parameter Log-Logistic Distributional Regression",
+  author = person("Tolga Barış", "Terzi"),
+  year = "2026",
+  note = "R package version 0.1.1"
+)

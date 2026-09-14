@@ -1,0 +1,5 @@
+"n","attempted","complete","completion_rate","stationary_success_rate","sigma_only_success_rate","nu_only_success_rate","joint_success_rate","AIC_false_nonstationary_rate","BIC_false_nonstationary_rate","AIC_stationary_selection_rate","BIC_stationary_selection_rate","mean_residual_mean","mean_residual_sd","mean_residual_tail_rate_95","mean_PIT_clipped_count","stationary_retry_rate","sigma_retry_rate","nu_retry_rate","joint_retry_rate"
+60,500,500,1,1,1,1,1,0.332,0.134,0.668,0.866,-0.0117723018485359,1.01022423883733,0.0544666666666667,0,0,0,0,0
+100,500,500,1,1,1,1,1,0.348,0.104,0.652,0.896,-0.00847572896149126,1.00531199098789,0.05112,0,0,0,0,0
+250,500,500,1,1,1,1,1,0.292,0.042,0.708,0.958,-0.00293602151191761,1.00307111863743,0.05112,0,0,0,0,0
+1000,500,500,1,1,1,1,1,0.298,0.032,0.702,0.968,-0.00161971857917348,1.00083287681313,0.050186,0,0,0,0,0

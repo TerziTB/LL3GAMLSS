@@ -1,0 +1,14 @@
+"metric","value"
+"unique_cells",274
+"cell_scale_selections",1096
+"cell_candidate_model_groups",4384
+"cell_candidate_monthly_fits",52608
+"cell_candidate_monthly_fits_converged",52608
+"cell_candidate_monthly_fits_inference_ready",52608
+"cell_candidate_boundary_contacts",0
+"cell_scale_fit_failures",0
+"basin_candidate_model_groups",16
+"basin_candidate_monthly_fits",192
+"basin_candidate_monthly_fits_converged",192
+"basin_candidate_monthly_fits_inference_ready",192
+"basin_candidate_boundary_contacts",0
