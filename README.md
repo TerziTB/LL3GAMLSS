@@ -5,12 +5,6 @@ shifted log-logistic distribution for classic `gamlss`. Its validated
 nonstationary formulation estimates a constant threshold and permits
 covariates in the scale and/or shape parameters.
 
-The conditional distribution is
-
-\[
-F(y_t)=\left[1+\left\{\frac{\sigma_t}{y_t-\mu}\right\}^{\nu_t}\right]^{-1},
-\qquad y_t>\mu.
-\]
 
 ## Repository guide
 
