@@ -1,9 +1,7 @@
 # LL3GAMLSS
 
 `LL3GAMLSS` is an R package implementing a support-safe three-parameter
-shifted log-logistic distribution for classic `gamlss`. Its validated
-nonstationary formulation estimates a constant threshold and permits
-covariates in the scale and/or shape parameters.
+shifted log-logistic distribution for the `gamlss` framework. Its validated non-stationary formulation estimates the threshold while holding it constant with respect to covariates, with covariate effects permitted in scale and/or shape.
 
 
 ## Repository guide
@@ -25,9 +23,9 @@ covariate-dependent location parameters, have already been published.
 
 The intended contribution is narrower and reproducible:
 
-- an installable classic-`gamlss` family for the shifted three-parameter
+- a custom `gamlss` family for the shifted three-parameter
   log-logistic distribution, which is not supplied by `gamlss.dist`;
-- a constant-threshold formulation with nonstationary scale and shape;
+- a constant-threshold formulation with covariate-dependent scale and/or shape;
 - explicit support-boundary safeguards and an inference-readiness gate;
 - validation against `FAdist`, numerical derivatives, and a separate direct
   optimizer;
@@ -49,9 +47,9 @@ library(LL3GAMLSS)
 
 For development checks, install `testthat` as well.
 
-The package is also installable from a source archive attached to a future
-GitHub Release. Source archives are intentionally ignored in normal Git
-history.
+Version `0.1.1` is tagged in this repository and the evaluated source release is
+archived permanently on Zenodo:
+https://doi.org/10.5281/zenodo.22749621
 
 ## Minimal reproducible example
 
@@ -155,12 +153,13 @@ alternatives rather than treating LL3 as a mathematical requirement.
 
 The threshold link is
 
-\[
-\eta_\mu=\log(lower-\mu), \qquad \mu=lower-\exp(\eta_\mu),
-\]
+```math
+\eta_\mu = \log(\mathrm{lower}-\mu), \qquad
+\mu = \mathrm{lower}-\exp(\eta_\mu).
+```
 
-where `lower` lies just below the minimum fitting response. Only contact within
-floating-point tolerance is projected. Material violations raise an error.
+where `lower` lies just below the minimum fitting response. During internal link evaluation, boundary contact within floating-point tolerance is clipped to a small positive gap. Material violations raise an
+error, while the inverse link remains strictly support-safe.
 
 ```r
 diagnostic <- LL3_boundary_diagnostic(fit, y)
@@ -274,8 +273,7 @@ not parameter-equivalent to the lower-threshold LL3 family.
 
 Seeds, requested and completed replicate counts, Monte Carlo standard errors,
 fit failures, boundary contacts, settings, runtimes, and session information
-are written beside each validation result. In the full repository (not the
-installable package tarball), the `analysis/manuscript_inputs/` directory
+are written beside each validation result. In the full repository, the `analysis/manuscript_inputs/` directory
 contains compact derived inputs needed to rebuild manuscript tables and figures
 without redistributing the restricted station observations.
 
@@ -288,7 +286,8 @@ each retained table and figure to its archived inputs and generator.
 
 Use `citation("LL3GAMLSS")` after installation. Citation metadata are also
 provided in [CITATION.cff](CITATION.cff) and [inst/CITATION](inst/CITATION).
-Repository and archive identifiers should be added only after they exist.
+Version `0.1.1` is archived permanently on Zenodo:
+https://doi.org/10.5281/zenodo.22749621
 
 ## License
 

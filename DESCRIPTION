@@ -6,21 +6,24 @@ Authors@R: person(
     given = "Tolga Barış",
     family = "Terzi",
     email = "tolgabaristerzi@ktu.edu.tr",
-    role = c("aut", "cre")
+    role = c("aut", "cre"),
+    comment = c(ORCID = "0009-0003-7404-281X")
   )
-Author: Tolga Barış Terzi [aut, cre]
-Maintainer: Tolga Barış Terzi <tolgabaristerzi@ktu.edu.tr>
 Description: Implements a support-safe three-parameter shifted log-logistic
-    family for classic Generalized Additive Models for Location, Scale and
-    Shape ('GAMLSS'). The validated nonstationary formulation estimates a
-    constant threshold while allowing scale and shape to depend on covariates.
-    It includes distribution functions, fitting and diagnostic helpers,
-    independent numerical likelihood comparison, uncertainty procedures, and
-    a calendar-month workflow for standardized precipitation-evapotranspiration
-    indices.
+    family for Generalized Additive Models for Location, Scale and
+    Shape ('GAMLSS'). The validated non-stationary formulation estimates the
+    threshold while holding it constant with respect to covariates, while
+    allowing scale and shape to depend on covariates. It includes distribution
+    functions, fitting and diagnostic helpers, independent numerical likelihood
+    comparison, uncertainty procedures, and a calendar-month workflow for
+    standardized precipitation-evapotranspiration indices.
 License: GPL-3
 Encoding: UTF-8
-Depends: R (>= 4.1.0)
+URL: https://github.com/TerziTB/LL3GAMLSS,
+    https://doi.org/10.5281/zenodo.22749621
+BugReports: https://github.com/TerziTB/LL3GAMLSS/issues
+Depends:
+    R (>= 4.1.0)
 Imports:
     gamlss,
     gamlss.dist,

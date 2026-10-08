@@ -3,10 +3,15 @@ message: "If you use LL3GAMLSS in research, please cite the software using this 
 type: software
 title: "LL3GAMLSS: Three-Parameter Log-Logistic Distributional Regression"
 version: 0.1.1
+date-released: 2026-09-14
+doi: "10.5281/zenodo.22749621"
+repository-code: "https://github.com/TerziTB/LL3GAMLSS"
+url: "https://github.com/TerziTB/LL3GAMLSS"
 authors:
   - family-names: "Terzi"
     given-names: "Tolga Barış"
     email: "tolgabaristerzi@ktu.edu.tr"
+    orcid: "https://orcid.org/0009-0003-7404-281X"
 license: GPL-3.0-only
 abstract: >-
   An R package providing a support-safe shifted three-parameter log-logistic

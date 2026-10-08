@@ -5,5 +5,7 @@ bibentry(
   title = "LL3GAMLSS: Three-Parameter Log-Logistic Distributional Regression",
   author = person("Tolga Barış", "Terzi"),
   year = "2026",
-  note = "R package version 0.1.1"
+  note = "R package version 0.1.1",
+  doi = "10.5281/zenodo.22749621",
+  url = "https://doi.org/10.5281/zenodo.22749621""
 )
