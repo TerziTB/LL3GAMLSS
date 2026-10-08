@@ -53,10 +53,8 @@ summary <- list(
     fit_audit = read_optional("analysis", "era5_results", "final_full_195001_202512", "fit_audit.csv")
   ),
   known_external_items = c(
-    "SPEI 1.8.1 public fit='max-lik' dispatch returned non-finite coefficients; the shipped internal maximum-likelihood engine was benchmarked separately.",
-    "A public repository URL and persistent archive DOI remain to be supplied by the author before manuscript submission."
+    "SPEI 1.8.1 public fit='max-lik' dispatch returned non-finite coefficients; the shipped internal maximum-likelihood engine was benchmarked separately."
   )
-)
 
 jsonlite::write_json(
   summary,
